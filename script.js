@@ -68,3 +68,26 @@ function getAllDateFormats(date) {
 }
 
 console.log(getAllDateFormats(date));
+
+// ex-05: write a function that checks palindrome for all the date formats
+
+function checkPalindromeForAllFormats(date) {
+  var listOfPalindromes = getAllDateFormats(date);
+
+  var flag = false;
+
+  for (let i = 0; i < listOfPalindromes.length; i++) {
+    if (pallindromeStr(listOfPalindromes[i])) {
+      flag = true;
+      break;
+    }
+  }
+
+  return flag;
+}
+
+console.log(checkPalindromeForAllFormats(date));
+
+// ex-06: find the next palindrome date, also how many days are in between
+
+function nextPalindromeDate(date) {}
