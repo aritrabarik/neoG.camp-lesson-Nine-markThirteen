@@ -90,4 +90,7 @@ console.log(checkPalindromeForAllFormats(date));
 
 // ex-06: find the next palindrome date, also how many days are in between
 
-function nextPalindromeDate(date) {}
+function nextPalindromeDate(date) {
+  var count = 0;
+  var nextDate = nextPalindromeDate(date);
+}
