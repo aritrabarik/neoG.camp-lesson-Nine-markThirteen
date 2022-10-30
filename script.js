@@ -1,8 +1,7 @@
 // ex01: write a function in JS that takes a string and reverses it
 
 function reverseStr(str) {
-  var revStr = str.split("").reverse().join("");
-  return revStr;
+  return str.split("").reverse().join("");
 }
 
 console.log(reverseStr("hello"));
