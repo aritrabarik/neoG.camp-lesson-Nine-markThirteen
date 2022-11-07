@@ -1,0 +1,18 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    display: block;
+    max-width: 200px;
+    margin: auto;
+}
+
+#output {
+    text-align: center;
+    margin: 2rem;
+}
